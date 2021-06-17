@@ -8,7 +8,7 @@
     <div class='container'>  
       <header>
         <nav>
-          <ul>
+          <ul class='nav'>
             <li><a href='#bio'>Bio</a></li>
             <li><a href='#habilidades'>Habilidades</a></li>
             <li><a href='#experiencias'>Expirièncias</a></li>
@@ -16,19 +16,22 @@
             <li><a href='#contato'>Contatos</a></li>
           </ul>
         </nav>
+        <figure>
+          <img src='./resources/images/pefil.jpg'/>
+        </figure>
       </header>
       <main>
         <h1>const name = 'Jailson Alves de Alencar'</h1>
-        <section id='bio'>
+        <aside id='bio'>
           <p class='bio'>
               let obj<strong>Life</strong> = {
-              Olá mundo, aqui é o Jailson, sou casado, 
+              Olá mundo, aqui é o Jailson, tenho <label id='age'></label> anos, sou casado, 
               tenho um filho, apesar de uma boa experiência em tecnologia quase sempre na área de suporte a software,
               resolvi me reciclar e aprender as tecnologias que estavam iniciando quando me formei lá em 2012, como bom "aprendedor" que sou 
               estou curtindo muito, essa apresentação faz parte do aprendizado.   
             }
           </p>
-        </section>
+        </aside>
         <section id='habilidades'>
           <h2>Habilidades/Skills</h2>
           <p class='habililidades'>
@@ -42,7 +45,7 @@
               <h4>Administrador</h4>
               <h5>Periodo: desde de Janeiro/2014</h4>
                 <p>
-                  Empreedendo desde então, sou resposavel por essa empresa de distribuição de cestas básicas que atua em 5 cidades no norte do Espirito Santo.
+                  Empreendendo desde então, sou resposavel por essa empresa de distribuição de cestas básicas que atua em 5 cidades no norte do Espirito Santo.
                 </p>
             </div>
             <div class='experiencia'>
@@ -83,10 +86,22 @@
         </section>
       </main>
       <footer>
-        <section id='contato'>
-
+        <section id='contatos'>
+          <figure>
+            <img src='./resources/images/github.png' alt='GitHub Logo'>
+            <figcaption><a href='github.com/AlencarJailson'>/alencarjailson</a></figcaption>
+          </figure>
+          <figure>
+            <img src='./resources/images/email.png' alt='Email Logo'>  
+            <figcaption><a href='mailto: alencarjailson88@gmail.com'>alencarjailson88@gmail.com</a></figcaption>
+          </figure>
+          <figure>
+            <img src='./resources/images/whatsphone.png' alt='Whattsapp Logo'>
+            <figcaption><a href='tel: +5527995733132'>+55 27 995733132</a></figcaption>
+          </figure>
         </section>
       </footer>
     </div>
+    <script src='./resources/scripts/script.js'></script>
   </body>
 </html>
